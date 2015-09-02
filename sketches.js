@@ -8,7 +8,8 @@ $.Carousel = function(el) {
   }.bind(this));
   $('.slide-right').on('click', function (event) {
     this.slide(-1);
-  }.bind(this));};
+  }.bind(this));
+};
 
 $.Carousel.prototype.slide = function(dir) {
   if (this.transitioning === true) {
